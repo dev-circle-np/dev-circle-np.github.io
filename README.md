@@ -1,8 +1,7 @@
-# Developers Circle Nepal - An official page. 
+# Developers Circle Nepal (DCN) - An official page.
+
+#### Would you like to contribute to this repo ? 
+checkout [contribution guide](https://github.com/dev-circle-np/dev-circle-np.github.io/CONTRIBUTING.md)
 
 ## Contributors
-[Ashish Acharya](https://github.com/anarchyrucks)
-
-[cswl](https://github.com/cswl)
-
-[Ramesh Syangtan](https://github.com/rameshsyn)
+we <3 our [Contributors](https://github.com/dev-circle-np/dev-circle-np.github.io/graphs/contributors) 

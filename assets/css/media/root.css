@@ -1,0 +1,33 @@
+/* Media queries for root */
+
+
+/* Smart Phones */
+@media screen and (max-width: 768px) {
+	nav {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.brand {
+		height: 50px;
+	}
+
+	.brand .menu-bar-icon {
+		display: flex;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+	.nav-menus {	
+		visibility: hidden;
+		flex-direction: column;
+		background: var(--base-pm-color);
+	}
+
+	.nav-menus li {
+		height: 50px;
+		background: #4e4646;
+		margin: 3px 0;
+	}
+	
+}
