@@ -1,0 +1,232 @@
+/* Stylesheets for index (root) */
+
+
+/* Navigation */
+/* Use of CSS3 flexbox,
+ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes */
+
+/* ===================== Header ================================ */
+header {
+	height: var(--navbar-height);
+	width: 100%;
+	background: var(--base-pm-color);
+	color: var(--base-font-color);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav {
+	max-width: var(--base-width);
+	margin: 0 auto;
+	display: flex;
+	height: inherit;
+
+}
+
+/* Brand */
+nav .brand {
+	flex: 2;
+	display: flex;
+}
+
+.brand > div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand .title {
+	cursor: pointer;
+}
+
+.brand .title a {
+	text-decoration: none;
+	color: var(--base-font-color);
+}
+
+
+.brand .menu-bar-icon {
+	display: none;
+}
+
+
+/* Navigation Menus */
+nav .nav-menus {
+	flex: 4;
+	display: flex;
+	z-index: 9999;
+}
+
+ .nav-menus li {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+
+.nav-menus li:hover {
+	border-bottom: 3px solid #fff;
+	cursor: pointer;
+} 
+
+.nav-menus li a {
+	text-decoration: none;
+	color: var(--base-font-color);
+}
+
+.nav-menus li a i {
+	color: #D1DBBD;
+}
+
+
+/* =========================== Main ================= */
+
+main {
+	margin-top: var(--navbar-height);  /*Subracts the navbar height*/
+}
+
+/* =========================== Motto ================================ */
+
+.motto {
+	height: calc(100vh - 15vh);  /*Subtracts header height*/
+	background: var(--base-sd-color);
+	color: var(--base-font-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* ========================== Join ================================ */
+
+.join {
+	background: #91AA9D;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	color: var(--base-font-color);
+}
+
+.join > * {
+	margin: 0;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.join > div  button {
+	background: var(--base-pm-color);
+	width: 200px;
+	height: 50px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	color: var(--base-font-color);
+	cursor: pointer;
+	box-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #151212;
+}
+/* ================================ Together ==================== */
+
+.together {
+	background: #D1DBBD;
+	height: 460px;
+	display: flex;
+	flex-direction: column;
+}
+
+.together > h1 {
+	flex: 1.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #333;
+}
+
+.together > div {
+	flex: 5;
+	display: flex;
+	max-width: 700px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+ .circle {
+	flex: 0 0 33%;
+	margin: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.circle > div {
+	background: white;
+	border-radius: 100%;
+	flex: 3;
+	height: 130px;
+	width: 130px;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.circle > div img {
+	height: 100px;
+	width: 100px;
+}
+
+.circle > h3 {
+	flex: 1;
+}
+/* ================================= About ==================== */
+
+.about {
+	background: #FCFFF5;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+
+}
+.about > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about > h1 {
+	flex: 2;
+	text-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #333;
+}
+.about > p {
+	max-width: 600px;
+	margin: 0 auto;
+	line-height: var(--base-line-height);
+	flex: 4;
+	padding: 10px;
+	display: inline;
+}
+.about > p > a {
+	text-decoration: none;
+	color: #555;
+}
+.about > div {
+	flex: 2;
+	font-size: 3em;
+}
+.about > div * {
+	padding: 15px;
+	color: var(--base-pm-color);
+}
+
+/* ======================== Footer ================ */
+
+footer {
+	height: 100px;
+	background: var(--base-pm-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--base-font-color);
+}
