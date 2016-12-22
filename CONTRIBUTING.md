@@ -18,16 +18,16 @@ Your local repo's `upstream` should be set to `https://github.com/dev-circle-np/
 **Note:** Make sure your master branch is synced to the original DCN repository and that you are working on a separate branch before you start making changes to your local repository. Here are the steps to follow:
 
 1. Open Git Shell and navigate to the repository
-2. Make sure you are on the development branch, using `git status`:
+2. Make sure you are on the master branch, using `git status`:
 
    ```
-   On branch development
-   Your branch is up to date 'origin/development'
+   On branch master
+   Your branch is up to date 'origin/master'
    ```
    
-3. If you are not on master, use `git checkout development`
+3. If you are not on master, use `git checkout master`
 4. Do a `pull` with rebase against `upstream`:
-   `git pull --rebase upstream development`
+   `git pull --rebase upstream master`
    This will sync your local repo with the original master without making an additional commit locally.
 5. Create a branch off of master with: `git checkout -B branchname` replacing `branchname` with the name of your new branch. Use a name that gives an idea of what feature or fix you are going to implement such as `navbar-styling`.
 6. Now you're ready to make some changes to your local files!
@@ -39,7 +39,7 @@ Alright, so you've made some changes in your local copy of the DCN repo, tested 
 2. Add your changed files to be staged with: `git add path/to/filename.ext` You can also do: `git add .` to add all unstaged files. Check `git status` before doing adding all unstaged files, as you may end up staging some unwanted files.
 3. Commit your edits: `git commit -m "commit description"`
 4. [Squash your commits](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html), if there are more than one.
-5. Push your commit to your fork on GitHub: `git push -u origin development`. The branch name should be the same as the branch you were working with.
+5. Push your commit to your fork on GitHub: `git push -u origin master`. The branch name should be the same as the branch you were working with.
 
 ## Submitting a pull request
 Once you've got your changes pushed to your fork of the DCN repo on GitHub, it's time to [submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
