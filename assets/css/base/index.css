@@ -1,0 +1,25 @@
+/* Base Css Stylesheet */
+
+/* css resets */
+@import url(./normalize.css);  
+
+
+/* css variables */
+@import url(./variables.css);
+
+
+/* Specify that all elements should have padding
+ and border included in the element's total width and height */
+
+* {
+	box-sizing: border-box;
+}
+
+
+h1, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* module */
+@import url(./module.css);
