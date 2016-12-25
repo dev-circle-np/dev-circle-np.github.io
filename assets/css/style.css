@@ -1,0 +1,334 @@
+
+/* css resets  || normalize css*/  
+button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0} menu,article,aside,details,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{}button,select{text-transform:none}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}/*# sourceMappingURL=normalize.min.css.map *//* contains css variables */
+
+
+/* Base Css Stylesheet */
+
+/* Specify that all elements should have padding
+ and border included in the element's total width and height */
+
+* {
+	box-sizing: border-box;
+}
+
+
+h1, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* css variables */
+
+/* Use of css variables, https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables */
+
+/* Root level element */
+
+:root {
+	/* Base color,  font-size, background-color  */
+
+	--base-font-color: #ffffff;
+	--base-font-size: 100%; 
+	--base-pm-color: #193441; /*Base primary color*/
+	--base-sd-color: #3E606F;   /*Base Secondary color*/
+	--base-width: 1000px;	
+	--base-line-height: 1.5;
+
+	/* Navbar */
+	--navbar-height: 100px;
+
+
+	/* Text and box shadows */
+	--shadow-h: 4px;
+	--shadow-v: 4px;
+	--shadow-blur: 5px;
+}
+
+/* Contains css classes which are manipulated from javascript  and animation stuffs*/
+
+.nav-hide {
+	visibility: visible !important;
+}
+
+
+
+
+
+/* Navigation */
+/* Use of CSS3 flexbox,
+ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes */
+
+/* ===================== Header ================================ */
+header {
+	height: var(--navbar-height);
+	width: 100%;
+	background: var(--base-pm-color);
+	color: var(--base-font-color);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav {
+	max-width: var(--base-width);
+	margin: 0 auto;
+	display: flex;
+	height: inherit;
+
+}
+
+/* Brand */
+nav .brand {
+	flex: 2;
+	display: flex;
+}
+
+.brand > div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand .title {
+	cursor: pointer;
+}
+
+.brand .title a {
+	text-decoration: none;
+	color: var(--base-font-color);
+}
+
+
+.brand .menu-bar-icon {
+	display: none;
+}
+
+
+/* Navigation Menus */
+nav .nav-menus {
+	flex: 4;
+	display: flex;
+	z-index: 9999;
+}
+
+ .nav-menus li {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+
+.nav-menus li:hover {
+	border-bottom: 3px solid #fff;
+	cursor: pointer;
+} 
+
+.nav-menus li a {
+	text-decoration: none;
+	color: var(--base-font-color);
+}
+
+.nav-menus li a i {
+	color: #D1DBBD;
+}
+
+
+/* =========================== Main ================= */
+
+main {
+	margin-top: var(--navbar-height);  /*Subracts the navbar height*/
+}
+
+/* ======================== Footer ================ */
+
+footer {
+	height: 100px;
+	background: var(--base-pm-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--base-font-color);
+}
+
+
+/* ------------------ CSS stylesheets for root -------------------  */
+
+/* =========================== Motto ================================ */
+
+.motto {
+	height: calc(100vh - 15vh);  /*Subtracts header height*/
+	background: var(--base-sd-color);
+	color: var(--base-font-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* ========================== Join ================================ */
+
+.join {
+	background: #91AA9D;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	color: var(--base-font-color);
+}
+
+.join > * {
+	margin: 0;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.join h1 {
+	text-align: center;
+}
+.join > div  button {
+	background: var(--base-pm-color);
+	width: 200px;
+	height: 50px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	color: var(--base-font-color);
+	cursor: pointer;
+	box-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #151212;
+}
+/* ================================ Together ==================== */
+
+.together {
+	background: #D1DBBD;
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+}
+
+.together > h1 {
+	margin: 10px;
+	flex: 1.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #333;
+}
+
+.together > div {
+	flex: 5;
+	display: flex;
+	max-width: 700px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+ .circle {
+	flex: 0 0 33%;
+	margin: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.circle > div {
+	background: white;
+	border-radius: 100%;
+	flex: 3;
+	height: 130px;
+	width: 130px;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.circle > h3 {
+	flex: 1;
+}
+/* ================================= About ==================== */
+
+.about {
+	background: #FCFFF5;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+
+}
+.about > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about > h1 {
+	flex: 2;
+	text-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #333;
+}
+.about > p {
+	max-width: 600px;
+	margin: 0 auto;
+	line-height: var(--base-line-height);
+	flex: 4;
+	padding: 10px;
+	display: inline;
+}
+.about > p > a {
+	text-decoration: none;
+	color: #555;
+}
+.about > div {
+	flex: 2;
+	font-size: 3em;
+}
+.about > div * {
+	padding: 15px;
+	color: var(--base-pm-color);
+}
+
+/* ------------------- CSS stylesheets for members page --------------- */
+
+
+
+/* ------------------- CSS stylesheets for showcase page -------------- */
+
+
+/* Media queries for root */
+
+
+/* Smart Phones */
+@media screen and (max-width: 768px) {
+	nav {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.brand {
+		height: 50px;
+	}
+
+	.brand .menu-bar-icon {
+		display: flex;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+	.nav-menus {	
+		visibility: hidden;
+		flex-direction: column;
+		background: var(--base-pm-color);
+	}
+
+	.nav-menus li {
+		height: 50px;
+		background: #4e4646;
+		margin: 3px 0;
+	}
+
+	.together {
+		height: auto;
+	}
+	
+}
+

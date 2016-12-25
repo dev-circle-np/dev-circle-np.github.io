@@ -1,6 +1,5 @@
 node_modules
 bundle.js
 package.json
-style.css
 webpack.config.js
 yarn.lock
