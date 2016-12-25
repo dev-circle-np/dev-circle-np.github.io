@@ -1,4 +1,4 @@
-// require('../css/main.css');
+//require('../css/style.css');
 (function() {
 	
 	const menuBar = document.querySelector(".menu-bar-icon");
