@@ -1,6 +1,19 @@
 /* Member information */
 
 const members = [
+  // rameshsyn
+  {
+    fullName: 'Ramesh Syangtan',
+    dicordUsername: 'rameshsyn',
+    about: 'I am teacher, developer & student from suryabinayak, Bhaktapur. ',
+    links: {
+      github: 'rameshsyn',
+      twitter: 'ramesh_syn',
+      facebook: 'rameshsyn'
+    }
+
+  }, 
+  
   // add here
 ]
 
