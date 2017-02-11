@@ -288,8 +288,86 @@ footer {
 }
 
 /* ------------------- CSS stylesheets for members page --------------- */
+.member-message {
+	height: calc(100vh - 60vh);
+	background: var(--base-sd-color);
+	color: var(--base-font-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 
+.member-message h1 {
+	margin: 10px 0;
+}
 
+.member-message a {
+	color: var(--base-font-color);
+}
+
+.member-message a:hover {
+	color: var(--base-pm-color);
+}
+
+.members {
+	background: #91AA9D;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: var(--base-font-color);
+}
+
+.member {
+	background: #919A99;
+	height: 300px;
+	width: 300px;
+	margin: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	border: 1px solid var(--base-pm-color);
+	border-radius: 10px;
+}
+
+.member-image {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+}
+
+.member hr {
+	width: 270px;
+	border-radius: 50%;
+	margin: 5px;
+	color: var(--base-font-color);
+}
+.member b {
+	color: gold;
+	margin: 10px 7px 5px;
+}
+
+.member p {
+	line-height: 1.5;
+	padding: 0 20px;
+	font-size: 95%;
+}
+
+.member-links {
+	display: flex;
+}
+
+.member-links a {
+	margin: 10px;
+	font-size: 18px;
+	color: var(--base-pm-color);
+}
+
+.member-links a:hover {
+	color: var(--base-font-color);
+}
 
 /* ------------------- CSS stylesheets for showcase page -------------- */
 
