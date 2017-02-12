@@ -4,8 +4,8 @@ const members = [
   // rameshsyn
   {
     fullName: 'Ramesh Syangtan',
-    dicordUsername: 'rameshsyn',
-    about: 'I am teacher, developer & student from suryabinayak, Bhaktapur. ',
+    discordUsername: 'rameshsyn',
+    about: 'I am teacher, developer & student from Suryabinayak, Bhaktapur. ',
     links: {
       github: 'rameshsyn',
       twitter: 'ramesh_syn',
@@ -13,6 +13,7 @@ const members = [
     }
 
   },
+  //ashish
   {
     fullName: 'Ashish Acharya',
     discordUsername: 'ashish',
@@ -22,6 +23,18 @@ const members = [
       twitter: 'anarchyrucks',
       facebook: 'anarchyrucks'
     }
+  },
+  //bibek
+  {
+    fullName: 'Bibek Lamsal',
+    discordUsername: 'bibek',
+    about: 'I am a budding Software Engineer and a Mathematics enthusiast.',
+    links: {
+      github: 'bibek94',
+      twitter: 'bibek107',
+      facebook: 'bibek.lamsal.94',
+    }
+  }
   // add here
 ]
 
@@ -32,7 +45,7 @@ let membersElms = '' // members elements
 // generate html of members data
 
 members.forEach(member => {
-  const memElm = `<div class='member'><img class='member-image' src='../assets/img/members/${member.dicordUsername}.png' alt='${member.fullName}' title='${member.fullName}'><b>${member.fullName} @ <span title='discord username'>${member.dicordUsername} </span></b><hr><p>${member.about}</p><hr><div class='member-links'><a href='https://github.com/${member.links.github}'><i class='fa fa-github'></i></a><a href='https://twitter.com/${member.links.twitter}'><i class='fa fa-twitter'></i></a><a href='https://facebook.com/${member.links.facebook}'><i class='fa fa-facebook'></i></a></div></div>`
+  const memElm = `<div class='member'><img class='member-image' src='../assets/img/members/${member.discordUsername}.png' alt='${member.fullName}' title='${member.fullName}'><b>${member.fullName} @ <span title='discord username'>${member.discordUsername} </span></b><hr><p>${member.about}</p><hr><div class='member-links'><a href='https://github.com/${member.links.github}'><i class='fa fa-github'></i></a><a href='https://twitter.com/${member.links.twitter}'><i class='fa fa-twitter'></i></a><a href='https://facebook.com/${member.links.facebook}'><i class='fa fa-facebook'></i></a></div></div>`
   membersElms += memElm
 })
 

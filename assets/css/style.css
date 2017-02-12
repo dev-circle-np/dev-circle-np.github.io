@@ -35,7 +35,7 @@ h1, p, ul {
 	--base-line-height: 1.5;
 
 	/* Navbar */
-	--navbar-height: 100px;
+	--navbar-height: 60px;
 
 
 	/* Text and box shadows */
@@ -144,12 +144,16 @@ main {
 /* ======================== Footer ================ */
 
 footer {
-	height: 100px;
+	height: 50px;
 	background: var(--base-pm-color);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: var(--base-font-color);
+}
+
+.copyright {
+	font-size: 1.3rem;
 }
 
 
@@ -165,6 +169,10 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+.motto div {
+	font-size: 3rem;
 }
 
 /* ========================== Join ================================ */
@@ -207,16 +215,17 @@ footer {
 	flex-direction: column;
 }
 
-.together > h1 {
-	margin: 10px;
-	flex: 1.5;
-	display: flex;
-	justify-content: center;
+.together-text {
 	align-items: center;
+	display: flex;
+	flex: 1.5;
+	font-size: 2rem;
+	justify-content: center;
+	margin: 10px;
 	text-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #333;
 }
 
-.together > div {
+.missions {
 	flex: 5;
 	display: flex;
 	max-width: 700px;
@@ -298,7 +307,8 @@ footer {
 	flex-direction: column;
 }
 
-.member-message h1 {
+.member-message div {
+	font-size: 2rem;
 	margin: 10px 0;
 }
 
@@ -383,13 +393,20 @@ footer {
 	}
 
 	.brand {
-		height: 50px;
+		height: 60px;
 	}
 
 	.brand .menu-bar-icon {
 		display: flex;
+		flex: 0.2;
 		font-size: 1.5em;
 		cursor: pointer;
+	}
+
+	.brand .title {
+		justify-content: flex-start;
+		margin-left: 20px;
+		flex: 0.8;
 	}
 
 	.nav-menus {	
@@ -404,9 +421,22 @@ footer {
 		margin: 3px 0;
 	}
 
+	.motto div {
+		font-size: 2.4rem;
+	}
+
 	.together {
 		height: auto;
 	}
-	
 }
 
+@media screen and (max-width: 450px) {
+	.motto div {
+		font-size: 1.7rem;
+	}
+
+	.member-message div {
+		font-size: 1.5rem;
+		margin: 10px 0;
+	}
+}
