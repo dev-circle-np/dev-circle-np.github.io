@@ -12,8 +12,16 @@ const members = [
       facebook: 'rameshsyn'
     }
 
-  }, 
-  
+  },
+  {
+    fullName: 'Ashish Acharya',
+    discordUsername: 'ashish',
+    about: 'Developer | Designer | Student | Nepal',
+    links: {
+      github: 'anarchyrucks',
+      twitter: 'anarchyrucks',
+      facebook: 'anarchyrucks'
+    }
   // add here
 ]
 
