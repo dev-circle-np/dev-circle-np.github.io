@@ -4,8 +4,9 @@
  In order to add yourself as a member, first you must join our DCN discord server [here](https://discord.gg/acVJSXP).
  
  Next, follow the given steps:
- 
+
 1. Add your information as Javascript object on `members/members.js` file in `members` Array.
+
    ```js
     // edit it
 {
