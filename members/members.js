@@ -45,7 +45,18 @@ const members = [
       twitter: 'freaky_nirmal',
       facebook: 'nirmal.rijal.16',
     }
-  }
+  },
+  //manishmarahatta
+  {
+    fullName: 'Manish Marahatta',
+    dicordUsername: 'manishmarahatta',
+    about: 'developer, emacs and open source addict, craze for AI',
+    links: {
+      github: 'manishmarahatta',
+      twitter: 'mmarahatta',
+      facebook: 'mmarahatta'
+    }
+  },
   // add here
 ]
 
