@@ -49,7 +49,7 @@ const members = [
   //manishmarahatta
   {
     fullName: 'Manish Marahatta',
-    dicordUsername: 'manishmarahatta',
+    discordUsername: 'manishmarahatta',
     about: 'developer, emacs and open source addict, craze for AI',
     links: {
       github: 'manishmarahatta',
