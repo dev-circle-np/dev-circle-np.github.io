@@ -11,7 +11,7 @@
     // edit it
 {
     fullName: '{ your full name }',
-    dicordUsername: '{ your discord username }',
+    discordUsername: '{ your discord username }',
     about: '{ very short text about you }',
     links: {
       github: '{ github username }',
