@@ -34,6 +34,17 @@ const members = [
       twitter: 'bibek107',
       facebook: 'bibek.lamsal.94',
     }
+  },
+  //nirmalrizal
+  {
+    fullName: 'Nirmal Rijal',
+    discordUsername: 'nirmalrizal',
+    about: 'Craze for Machine Learning and Data Science :)',
+    links: {
+      github: 'nirmalrizal53',
+      twitter: 'freaky_nirmal',
+      facebook: 'nirmal.rijal.16',
+    }
   }
   // add here
 ]
