@@ -57,7 +57,17 @@ const members = [
       facebook: 'mmarahatta'
     }
   },
-  // add here
+  // nabinsademba
+  {
+    fullName: 'Nabin Sademba',
+    discordUsername: 'Monk34',
+    about: 'nerd,geek :P',
+    links: {
+      github: 'nabins13',
+      twitter: 'nabin sademba',
+      facebook: 'नविन सादेम्बा लिम्बु'
+    }
+  },
 ]
 
 /* ====================================================================== */
