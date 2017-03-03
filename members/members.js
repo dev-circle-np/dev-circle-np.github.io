@@ -57,6 +57,17 @@ const members = [
       facebook: 'mmarahatta'
     }
   },
+  //amitchaudhary
+  {
+    fullName: 'Amit Chaudhary',
+    discordUsername: 'studenton',
+    about: 'I love playing with data.',
+    links: {
+      github: 'studenton',
+      twitter: 'studentoncom',
+      facebook: 'amitify'
+    }
+  },
   // add here
 ]
 
