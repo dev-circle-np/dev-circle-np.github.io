@@ -82,6 +82,18 @@ const members = [
       facebook: 'cdrrazanme'
     }
   },
+  
+  //Animesh Risal
+   {
+    fullName: 'Animesh Risal',
+    discordUsername: '!10Toasts',
+    about: 'Machine Learning, NLP, open education',
+    links: {
+      github: 'TenToasts',
+      twitter: 'TenToasts',
+      facebook: 'TenToasts'
+    }
+  },
 ]
 
 /* ====================================================================== */
