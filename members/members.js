@@ -68,7 +68,17 @@ const members = [
       facebook: 'amitify'
     }
   },
-  // add here
+  //rajanbhattarai
+   {
+    fullName: 'Rajan Bhattarai',
+    discordUsername: 'cdrrazan',
+    about: 'ROR, emacs and Open Source Promoter ',
+    links: {
+      github: 'cdrrazan',
+      twitter: 'cdrrazan'
+    }
+
+  },
 ]
 
 /* ====================================================================== */
