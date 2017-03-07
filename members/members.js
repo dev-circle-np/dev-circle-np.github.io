@@ -78,7 +78,8 @@ const members = [
     about: 'ROR, emacs, and Open Source Promoter',
     links: {
       github: 'cdrrazan',
-      twitter: 'cdrrazan'
+      twitter: 'cdrrazan',
+      facebook: 'cdrrazanme'
     }
   },
 ]
