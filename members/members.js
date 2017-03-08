@@ -68,9 +68,6 @@ const members = [
       facebook: 'amitify'
     }
   },
-  // add here
-
-
   //rajan bhattarai
   {
     fullName: 'Rajan Bhattarai',
@@ -82,15 +79,16 @@ const members = [
       facebook: 'cdrrazanme'
     }
   },
-		//Sabin Nepal
-	{
-		fullName: 'Sabin Nepal',
-		discordUsername: 'neymarsabin',
-		about: 'I am a CSIT student and I like to collaborate.',
-		links: {
-			github: 'neymarsabin'
-		}
+  //Sabin Nepal
+  {
+    fullName: 'Sabin Nepal',
+    discordUsername: 'neymarsabin',
+    about: 'I am a CSIT student and I like to collaborate.',
+    links: {
+      github: 'neymarsabin'
+    }
   },
+  //add here
 ]
 /* ====================================================================== */
 const membersContainer = document.querySelector('.members')
