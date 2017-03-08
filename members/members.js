@@ -82,6 +82,16 @@ const members = [
       facebook: 'cdrrazanme'
     }
   },
+		{
+				fullName: 'Sabin Nepal',
+				discordUsername: 'neymarsabin',
+				about: 'A guy with no facebook and twitter accounts.',
+				links: {
+						github: 'neymarsabin',
+						twitter: 'NULL',
+						facebook: 'NULL'
+    }
+  },
 ]
 
 /* ====================================================================== */
