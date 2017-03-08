@@ -68,10 +68,8 @@ const members = [
       facebook: 'amitify'
     }
   },
-  // add here
 
-
-  //rajan bhattarai
+		//rajan bhattarai
   {
     fullName: 'Rajan Bhattarai',
     discordUsername: 'cdrrazan',
@@ -82,16 +80,16 @@ const members = [
       facebook: 'cdrrazanme'
     }
   },
+		// Sabin Nepal 
 		{
 				fullName: 'Sabin Nepal',
 				discordUsername: 'neymarsabin',
-				about: 'A guy with no facebook and twitter accounts.',
+				about: 'I am a CSIT student and I like to collaborate.',
 				links: {
-						github: 'neymarsabin',
-						twitter: 'NULL',
-						facebook: 'NULL'
-    }
-  },
+						github: 'neymarsabin'
+				}
+		},
+		//add here...
 ]
 
 /* ====================================================================== */
