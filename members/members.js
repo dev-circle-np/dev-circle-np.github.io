@@ -68,8 +68,39 @@ const members = [
       facebook: 'नविन सादेम्बा लिम्बु'
     }
   },
+  //amitchaudhary
+  {
+    fullName: 'Amit Chaudhary',
+    discordUsername: 'studenton',
+    about: 'I love playing with data.',
+    links: {
+      github: 'studenton',
+      twitter: 'studentoncom',
+      facebook: 'amitify'
+    }
+  },
+  //rajan bhattarai
+  {
+    fullName: 'Rajan Bhattarai',
+    discordUsername: 'cdrrazan',
+    about: 'ROR, emacs, and Open Source Promoter',
+    links: {
+      github: 'cdrrazan',
+      twitter: 'cdrrazan',
+      facebook: 'cdrrazanme'
+    }
+  },
+  //Sabin Nepal
+  {
+    fullName: 'Sabin Nepal',
+    discordUsername: 'neymarsabin',
+    about: 'I am a CSIT student and I like to collaborate.',
+    links: {
+      github: 'neymarsabin'
+    }
+  },
+  //add here
 ]
-
 /* ====================================================================== */
 const membersContainer = document.querySelector('.members')
 let membersElms = '' // members elements
@@ -77,7 +108,31 @@ let membersElms = '' // members elements
 // generate html of members data
 
 members.forEach(member => {
-  const memElm = `<div class='member'><img class='member-image' src='../assets/img/members/${member.discordUsername}.png' alt='${member.fullName}' title='${member.fullName}'><b>${member.fullName} @ <span title='discord username'>${member.discordUsername} </span></b><hr><p>${member.about}</p><hr><div class='member-links'><a href='https://github.com/${member.links.github}'><i class='fa fa-github'></i></a><a href='https://twitter.com/${member.links.twitter}'><i class='fa fa-twitter'></i></a><a href='https://facebook.com/${member.links.facebook}'><i class='fa fa-facebook'></i></a></div></div>`
+  let memElm =
+    `<div class='member'>
+      <img class='member-image'
+        src='../assets/img/members/${member.discordUsername}.png'
+        alt='${member.fullName}'
+        title='${member.fullName}'>
+      <b>${member.fullName} @ <span title='discord username'>${member.discordUsername} </span></b><hr>
+      <p>${member.about}</p><hr>
+      <div class='member-links'>
+    `
+
+  if (member.links.github) {
+    memElm += `<a href='https://github.com/${member.links.github}'><i class='fa fa-github'></i></a>`
+  }
+
+  if (member.links.twitter) {
+    memElm += `<a href='https://twitter.com/${member.links.twitter}'><i class='fa fa-twitter'></i></a>`
+  }
+
+  if (member.links.facebook) {
+    memElm += `<a href='https://facebook.com/${member.links.facebook}'><i class='fa fa-facebook'></i></a>`
+  }
+
+  memElm += `</div></div>`
+
   membersElms += memElm
 })
 
