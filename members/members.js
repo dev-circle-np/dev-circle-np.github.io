@@ -120,6 +120,7 @@ let membersElms = '' // members elements
 // generate html of members data
 
 members.forEach(member => {
+  member.discordUsername = member.discordUsername || 'default.png'
   let memElm =
     `<div class='member'>
       <img class='member-image'
