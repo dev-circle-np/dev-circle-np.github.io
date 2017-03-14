@@ -1,27 +1,28 @@
 # Developers Circle Nepal (DCN) - The official page.
 
 ### Add yourself as a member
- In order to add yourself as a member, first you must join our DCN discord server [here](https://discord.gg/acVJSXP).
+ In order to add yourself as a member, you must join our DCN discord server [here](https://discord.gg/acVJSXP).
  
  Next, follow the given steps:
 
-1. Add your information as Javascript object on `members/members.js` file in `members` Array.
+1. Add your information as Javascript object on `members/members.js` file in `members` array.
 
-   ```js
+    ```js
     // edit it
-{
-    fullName: '{ your full name }',
-    discordUsername: '{ your discord username }',
-    about: '{ very short text about you }',
-    links: {
-      github: '{ github username }',
-      twitter: '{ twitter username }',
-      facebook: '{ facebook username }'
-    }
-  },
-  ```
+    {
+        fullName: '{ your full name }',
+        discordUsername: '{ your discord username }',
+        about: '{ very short text about you }',
+        image: true,  // set to false if no profile image is provided
+        links: {
+            github: '{ github username }',
+            twitter: '{ twitter username }',
+            facebook: '{ facebook username }'
+        }
+    },
+    ```
 2. Add your profile image on `assets/img/members` folder.
-    Make sure your profile image is renamed as `<your discord username>.png`
+    Make sure your profile image is renamed as `<your discord username>.png and has small size.`
 3. Send us a PR. That's all.
 
 #### Would you like to contribute to this repo ?
