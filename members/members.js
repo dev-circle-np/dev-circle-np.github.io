@@ -19,7 +19,7 @@ const members = [
     fullName: 'Ashish Acharya',
     discordUsername: 'ashish',
     about: 'Developer | Designer | Student | Nepal',
-    image: true,    
+    image: true,
     links: {
       github: 'anarchyrucks',
       twitter: 'anarchyrucks',
@@ -98,7 +98,6 @@ const members = [
       facebook: 'cdrrazanme'
     }
   },
-  
   // Animesh Risal
    {
     fullName: 'Animesh Risal',
@@ -121,6 +120,18 @@ const members = [
       github: 'neymarsabin'
     }
   },
+  // Pradip Khadka
+  {
+    fullName: 'Pradip Khadka',
+    discordUsername: 'iampradp',
+    about: 'Developer, EDM Lover, Lifelong Learner',
+    image: true,
+    links: {
+      github: 'coderpradp',
+      twitter: 'pradpkhadka',
+      facebook: 'iampradp'
+    }
+  }
   // add here
 ]
 /* ====================================================================== */
