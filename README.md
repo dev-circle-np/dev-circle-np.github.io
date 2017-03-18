@@ -13,16 +13,13 @@
         fullName: '{ your full name }',
         discordUsername: '{ your discord username }',
         about: '{ very short text about you }',
-        image: true,  // set to false if no profile image is provided
         links: {
-            github: '{ github username }',
+            github: '{ github username }', // required
             twitter: '{ twitter username }',
             facebook: '{ facebook username }'
         }
     },
     ```
-2. Add your profile image on `assets/img/members` folder.
-    Make sure your profile image is renamed as `<your discord username>.png and has small size.`
 3. Send us a PR. That's all.
 
 #### Would you like to contribute to this repo ?

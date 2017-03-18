@@ -6,20 +6,17 @@ const members = [
     fullName: 'Ramesh Syangtan',
     discordUsername: 'rameshsyn',
     about: 'I am teacher, developer & student from Suryabinayak, Bhaktapur. ',
-    image: true,
     links: {
       github: 'rameshsyn',
       twitter: 'ramesh_syn',
       facebook: 'rameshsyn'
     }
-
   },
   // ashish
   {
     fullName: 'Ashish Acharya',
     discordUsername: 'ashish',
     about: 'Developer | Designer | Student | Nepal',
-    image: true,
     links: {
       github: 'anarchyrucks',
       twitter: 'anarchyrucks',
@@ -31,11 +28,10 @@ const members = [
     fullName: 'Bibek Lamsal',
     discordUsername: 'bibek',
     about: 'I am a budding Software Engineer and a Mathematics enthusiast.',
-    image: true,
     links: {
       github: 'bibek94',
       twitter: 'bibek107',
-      facebook: 'bibek.lamsal.94',
+      facebook: 'bibek.lamsal.94'
     }
   },
   // nirmalrizal
@@ -43,11 +39,10 @@ const members = [
     fullName: 'Nirmal Rijal',
     discordUsername: 'nirmalrizal',
     about: 'Craze for Machine Learning and Data Science :)',
-    image: true,
     links: {
       github: 'nirmalrizal53',
       twitter: 'freaky_nirmal',
-      facebook: 'nirmal.rijal.16',
+      facebook: 'nirmal.rijal.16'
     }
   },
   // manishmarahatta
@@ -55,7 +50,6 @@ const members = [
     fullName: 'Manish Marahatta',
     discordUsername: 'manishmarahatta',
     about: 'developer, emacs and open source addict, craze for AI',
-    image: true,
     links: {
       github: 'manishmarahatta',
       twitter: 'mmarahatta',
@@ -67,7 +61,6 @@ const members = [
     fullName: 'Nabin Sademba',
     discordUsername: 'Monk34',
     about: 'nerd,geek :P',
-    image: false,
     links: {
       github: 'nabins13',
       twitter: 'nabin sademba',
@@ -79,7 +72,6 @@ const members = [
     fullName: 'Amit Chaudhary',
     discordUsername: 'studenton',
     about: 'I love playing with data.',
-    image: true,
     links: {
       github: 'studenton',
       twitter: 'studentoncom',
@@ -91,7 +83,6 @@ const members = [
     fullName: 'Rajan Bhattarai',
     discordUsername: 'cdrrazan',
     about: 'ROR, emacs, and Open Source Promoter',
-    image: true,
     links: {
       github: 'cdrrazan',
       twitter: 'cdrrazan',
@@ -99,11 +90,10 @@ const members = [
     }
   },
   // Animesh Risal
-   {
+  {
     fullName: 'Animesh Risal',
     discordUsername: '!10Toasts',
     about: 'Machine Learning, NLP, open education',
-    image: false,
     links: {
       github: 'TenToasts',
       twitter: 'TenToasts',
@@ -115,7 +105,6 @@ const members = [
     fullName: 'Sabin Nepal',
     discordUsername: 'neymarsabin',
     about: 'I am a CSIT student and I like to collaborate.',
-    image: true,
     links: {
       github: 'neymarsabin'
     }
@@ -125,7 +114,6 @@ const members = [
     fullName: 'Pradip Khadka',
     discordUsername: 'iampradp',
     about: 'Developer, EDM Lover, Lifelong Learner',
-    image: true,
     links: {
       github: 'coderpradp',
       twitter: 'pradpkhadka',
@@ -148,14 +136,13 @@ const members = [
 const membersContainer = document.querySelector('.members')
 let membersElms = '' // members elements
 
-// generate html of members data
+// Generate html of members data
 
 members.forEach(member => {
-  const image = member.image ? member.discordUsername : 'default'
   let memElm =
     `<div class='member'>
       <img class='member-image'
-        src='../assets/img/members/${image}.png',
+        src='https://github.com/${member.links.github}.png?size=100',
         alt='${member.fullName}'
         title='${member.fullName}'>
       <b>${member.fullName} @ <span title='discord username'>${member.discordUsername} </span></b><hr>
