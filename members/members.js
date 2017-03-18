@@ -132,7 +132,8 @@ const members = [
       facebook: 'iampradp'
     }
   },
-  // Pratik Chaudhary  {
+  // Pratik Chaudhary  
+  {
     fullName: 'Pratik Chaudhary',
     discordUsername: 'AbsoluteZero',
     about: 'Hacks FP',
@@ -140,7 +141,7 @@ const members = [
       github: 'AbsoluteZero273',
       twitter: 'CodeZero273'
     }
-  },
+  }
   // add here
 ]
 /* ====================================================================== */
