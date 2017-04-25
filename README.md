@@ -2,7 +2,7 @@
 
 ### Add yourself as a member
  In order to add yourself as a member, you must join our DCN discord server [here](https://discord.gg/acVJSXP).
- 
+
  Next, follow the given steps:
 
 1. Add your information as Javascript object on `members/members.js` file in `members` array.
@@ -11,7 +11,7 @@
     // edit it
     {
         fullName: '{ your full name }',
-        discordUsername: '{ your discord username }',
+        discordUsername: '{ your discord username with discriminator ex. user#1050 }',
         about: '{ very short text about you }',
         links: {
             github: '{ github username }', // required
@@ -26,4 +26,4 @@
 Checkout our [contribution guide](https://github.com/dev-circle-np/dev-circle-np.github.io/blob/master/CONTRIBUTION.md)
 
 ## Contributors
-We ❤️ our [Contributors](https://github.com/dev-circle-np/dev-circle-np.github.io/graphs/contributors) 
+We ❤️ our [Contributors](https://github.com/dev-circle-np/dev-circle-np.github.io/graphs/contributors)
