@@ -89,6 +89,16 @@ nav .brand {
 	align-items: center;
 }
 
+.brand .logo {
+	background-image: url(../img/logo.jpg);
+	background-size: cover;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 15px;
+	width: 40px;
+	height: 40px;
+}
+
 .brand .title {
 	cursor: pointer;
 }
@@ -162,7 +172,7 @@ footer {
 
 .motto {
 	height: calc(100vh - 15vh);  /*Subtracts header height*/
-	background-image: url(../img/hero/dcn-hero.png);
+	background-image: url(../img/dcn-hero.jpg);
 	background-size: cover;
 	background-position: center;
 	color: var(--base-font-color);
