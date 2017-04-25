@@ -4,7 +4,7 @@ const members = [
   // rameshsyn
   {
     fullName: 'Ramesh Syangtan',
-    discordUsername: 'rameshsyn',
+    discordUsername: 'rameshsyn#6074',
     about: 'I am teacher, developer & student from Suryabinayak, Bhaktapur. ',
     links: {
       github: 'rameshsyn',
@@ -15,7 +15,7 @@ const members = [
   // ashish
   {
     fullName: 'Ashish Acharya',
-    discordUsername: 'ashish',
+    discordUsername: 'ashish#2010',
     about: 'Developer | Designer | Student | Nepal',
     links: {
       github: 'anarchyrucks',
@@ -37,7 +37,7 @@ const members = [
   // nirmalrizal
   {
     fullName: 'Nirmal Rijal',
-    discordUsername: 'nirmalrizal',
+    discordUsername: 'nirmalrizal#8173',
     about: 'Craze for Machine Learning and Data Science :)',
     links: {
       github: 'nirmalrizal53',
@@ -48,7 +48,7 @@ const members = [
   // manishmarahatta
   {
     fullName: 'Manish Marahatta',
-    discordUsername: 'manishmarahatta',
+    discordUsername: 'manishmarahatta#6214',
     about: 'developer, emacs and open source addict, craze for AI',
     links: {
       github: 'manishmarahatta',
@@ -59,7 +59,7 @@ const members = [
   // nabinsademba
   {
     fullName: 'Nabin Sademba',
-    discordUsername: 'Monk34',
+    discordUsername: 'Monk34#5561',
     about: 'nerd,geek :P',
     links: {
       github: 'nabins13',
@@ -70,7 +70,7 @@ const members = [
   // amitchaudhary
   {
     fullName: 'Amit Chaudhary',
-    discordUsername: 'studenton',
+    discordUsername: 'amitness#3292',
     about: 'I love playing with data.',
     links: {
       github: 'studenton',
@@ -81,7 +81,7 @@ const members = [
   // rajan bhattarai
   {
     fullName: 'Rajan Bhattarai',
-    discordUsername: 'cdrrazan',
+    discordUsername: 'cdrrazan#3388',
     about: 'ROR, emacs, and Open Source Promoter',
     links: {
       github: 'cdrrazan',
@@ -92,10 +92,10 @@ const members = [
   // Animesh Risal
   {
     fullName: 'Animesh Risal',
-    discordUsername: '!10Toasts',
+    discordUsername: 'TenToasts#8794',
     about: 'Machine Learning, NLP, open education',
     links: {
-      github: 'TenToasts',
+      github: 'toastypixels',
       twitter: 'TenToasts',
       facebook: 'TenToasts'
     }
@@ -103,7 +103,7 @@ const members = [
   // Sabin Nepal
   {
     fullName: 'Sabin Nepal',
-    discordUsername: 'neymarsabin',
+    discordUsername: 'neymarsabin#2179',
     about: 'I am a CSIT student and I like to collaborate.',
     links: {
       github: 'neymarsabin'
@@ -112,7 +112,7 @@ const members = [
   // Pradip Khadka
   {
     fullName: 'Pradip Khadka',
-    discordUsername: 'iampradp',
+    discordUsername: 'pradyp.me#2193',
     about: 'Developer, EDM Lover, Lifelong Learner',
     links: {
       github: 'coderpradp',
@@ -120,10 +120,10 @@ const members = [
       facebook: 'iampradp'
     }
   },
-  // Pratik Chaudhary  
+  // Pratik Chaudhary
   {
     fullName: 'Pratik Chaudhary',
-    discordUsername: 'AbsoluteZero',
+    discordUsername: 'AbsoluteZero#0296',
     about: 'Hacks FP',
     links: {
       github: 'AbsoluteZero273',
