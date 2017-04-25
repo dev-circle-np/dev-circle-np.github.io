@@ -26,4 +26,4 @@
 Checkout our [contribution guide](https://github.com/dev-circle-np/dev-circle-np.github.io/blob/master/CONTRIBUTION.md)
 
 ## Contributors
-We <3 our [Contributors](https://github.com/dev-circle-np/dev-circle-np.github.io/graphs/contributors) 
+We ❤️ our [Contributors](https://github.com/dev-circle-np/dev-circle-np.github.io/graphs/contributors) 
