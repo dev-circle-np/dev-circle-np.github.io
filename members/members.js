@@ -129,6 +129,15 @@ const members = [
       github: 'AbsoluteZero273',
       twitter: 'CodeZero273'
     }
+    },
+    // Sujan Rijal
+    {
+    fullName: 'Sujan Rijal',
+    discordUsername: 'Sujanrijal16',
+    about: 'IT student and here to contribute for new experience.',
+    links: {
+      github: 'Sujanrijal16',
+         }
   }
   // add here
 ]
