@@ -41,7 +41,7 @@ const members = [
     about: 'Craze for Machine Learning and Data Science :)',
     links: {
       github: 'nirmalrizal53',
-      twitter: 'freaky_nirmal',
+      twitter: 'nirmalrizal',
       facebook: 'nirmal.rijal.16'
     }
   },
