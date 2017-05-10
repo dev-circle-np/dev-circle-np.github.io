@@ -73,8 +73,7 @@ const members = [
     discordUsername: 'amitness#3292',
     about: 'I love playing with data.',
     links: {
-      github: 'studenton',
-      twitter: 'studentoncom',
+      github: 'amitness',
       facebook: 'amitify'
     }
   },
