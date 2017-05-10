@@ -62,7 +62,7 @@ h1, p, ul {
 header {
 	height: var(--navbar-height);
 	width: 100%;
-	background: var(--base-pm-color);
+	background: #263238;
 	color: var(--base-font-color);
 	position: fixed;
 	top: 0;
@@ -311,7 +311,7 @@ footer {
 /* ------------------- CSS stylesheets for members page --------------- */
 .member-message {
 	height: calc(100vh - 60vh);
-	background: var(--base-sd-color);
+	background: #37474F;
 	color: var(--base-font-color);
 	display: flex;
 	justify-content: center;
@@ -333,7 +333,7 @@ footer {
 }
 
 .members {
-	background: #91AA9D;
+	background: #EEE;
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -342,22 +342,22 @@ footer {
 }
 
 .member {
-	background: #919A99;
+	background: #fff;
 	height: 300px;
 	width: 300px;
 	margin: 30px 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 5px;
-	border: 1px solid var(--base-pm-color);
-	border-radius: 10px;
+	padding: 2px
+	/*border: 1px solid var(--base-pm-color);*/
+	border-radius: 2px;
 }
 
 .member-image {
 	height: 100px;
 	width: 100px;
-	border-radius: 10px;
+	border-radius: 50px;
 }
 
 .member hr {
@@ -367,11 +367,12 @@ footer {
 	color: var(--base-font-color);
 }
 .member b {
-	color: gold;
+	color: #607D8B;
 	margin: 10px 7px 5px;
 }
 
 .member p {
+	color: #616161;
 	line-height: 1.5;
 	padding: 0 20px;
 	font-size: 95%;
@@ -384,11 +385,11 @@ footer {
 .member-links a {
 	margin: 10px;
 	font-size: 18px;
-	color: var(--base-pm-color);
+	color: #424242;
 }
 
 .member-links a:hover {
-	color: var(--base-font-color);
+	color: #9e9e9e;
 }
 
 /* ------------------- CSS stylesheets for showcase page -------------- */
