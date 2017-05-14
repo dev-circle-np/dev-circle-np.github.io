@@ -144,7 +144,7 @@ members.forEach(member => {
         src='https://github.com/${member.links.github}.png?size=100',
         alt='${member.fullName}'
         title='${member.fullName}'>
-      <b>${member.fullName} @ <span title='discord username'>${member.discordUsername} </span></b><hr>
+      <h2 class='member-username'>${member.fullName}</h2> <p title='Discord username' class='member-discord-user'>@${member.discordUsername} </p><hr>
       <p>${member.about}</p><hr>
       <div class='member-links'>
     `
