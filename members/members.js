@@ -138,6 +138,15 @@ const members = [
       github: 'Sujanrijal16',
     }
   }
+  // Kiran Shahi
+  {
+    fullName: 'Kiran Shahi',
+    discordUsername: 'Kiran Shahi#0366',
+    about: 'Student | Developer | .NET',
+    links: {
+      github: 'kiranshahi',
+    }
+  }
   // add here
 ]
 /* ====================================================================== */
