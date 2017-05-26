@@ -28,6 +28,7 @@ h1, p, ul {
 	/* Base color,  font-size, background-color  */
 
 	--base-font-color: #ffffff;
+	--join-font-color: #000000;
 	--base-font-size: 100%;
 	--base-pm-color: #193441; /*Base primary color*/
 	--base-sd-color: #3E606F;   /*Base Secondary color*/
@@ -208,15 +209,18 @@ footer {
 	text-align: center;
 }
 .join > div  button {
-	background: var(--base-pm-color);
+	background: transparent;
 	width: 200px;
 	height: 50px;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	color: var(--base-font-color);
+	border: 1px solid #fff;
+	color: var(--join-font-color);
 	cursor: pointer;
-	box-shadow: var(--shadow-h) var(--shadow-v) var(--shadow-blur) #151212;
+	font-size: 24px;
+}
+
+.join > div  button:hover {
+	border: 1px solid #000;
+	color: var(--base-font-color);
 }
 /* ================================ Together ==================== */
 

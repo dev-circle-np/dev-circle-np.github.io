@@ -137,7 +137,7 @@ const members = [
     links: {
       github: 'Sujanrijal16',
     }
-  }
+  },
   // Kiran Shahi
   {
     fullName: 'Kiran Shahi',
@@ -145,6 +145,8 @@ const members = [
     about: 'Student | Developer | .NET',
     links: {
       github: 'kiranshahi',
+      twitter: 'itskirans',
+      facebook: 'itskirans',
     }
   }
   // add here
