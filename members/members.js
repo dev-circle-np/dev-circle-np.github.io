@@ -149,7 +149,16 @@ const members = [
       facebook: 'itskirans',
     }
   }
+  // Bijay Pathak
+  {
+    fullName: 'Bijay Pathak',
+    discordUsername: 'aquilabijay#4800',
+    about: 'Engineering Student, looking forward to contribute',
+    links: {
+        github: 'beejay777',
+    }
   // add here
+},
 ]
 /* ====================================================================== */
 const membersContainer = document.querySelector('.members')
