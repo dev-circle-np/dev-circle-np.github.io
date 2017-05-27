@@ -155,11 +155,9 @@ const members = [
     discordUsername: 'aquilabijay#4800',
     about: 'Engineering Student, looking forward to contribute',
     links: {
-        github: 'beejay777', // required
-        twitter: '',
-        facebook: ''
+        github: 'beejay777',
     }
-  //Add Here
+  // add here
 },
 ]
 /* ====================================================================== */
