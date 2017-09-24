@@ -148,9 +148,9 @@ const members = [
             twitter: 'itskirans',
             facebook: 'itskirans',
         }
-    }
-	// Pramesh Bajracharya
-	{
+    },
+    // Pramesh Bajracharya
+    {
         fullName: 'Pramesh Bajracharya',
         discordUsername: 'pe.messh#5758',
         about: 'Computer Science Enginner | Tech Enthusiast ',
@@ -158,7 +158,7 @@ const members = [
             github: 'Suzal3579',
             twitter: 'suzal33',
             facebook: 'pe.messh',
-			instagram: 'pe.messh'
+            instagram: 'pe.messh'
         }
     }
     // add here
