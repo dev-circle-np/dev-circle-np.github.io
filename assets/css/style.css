@@ -32,7 +32,7 @@ h1, p, ul {
 	--base-font-size: 100%;
 	--base-pm-color: #193441; /*Base primary color*/
 	--base-sd-color: #3E606F;   /*Base Secondary color*/
-	--base-width: 1000px;
+	--base-width: 1366px;
 	--base-line-height: 1.5;
 
 	/* Navbar */
@@ -91,7 +91,7 @@ nav .brand {
 }
 
 .brand .logo {
-	background-image: url(../img/logo.jpg);
+	background-image: url(../assets/img/logo.jpg);
 	background-size: cover;
 	background-color: white;
 	border-radius: 50%;
@@ -116,33 +116,6 @@ nav .brand {
 
 
 /* Navigation Menus */
-nav .nav-menus {
-	flex: 4;
-	display: flex;
-	z-index: 9999;
-}
-
- .nav-menus li {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	list-style-type: none;
-}
-
-.nav-menus li:hover {
-	box-shadow: 0 -3px 0 0 #fff inset;
-	cursor: pointer;
-}
-
-.nav-menus li a {
-	text-decoration: none;
-	color: var(--base-font-color);
-}
-
-.nav-menus li a i {
-	color: #D1DBBD;
-}
 
 
 /* =========================== Main ================= */
@@ -190,8 +163,14 @@ footer {
 
 /* ========================== Join ================================ */
 
+.btn {
+	width: 250px;
+	height: 100px;
+	line-height: 90px;
+}
+
 .join {
-	background: #91AA9D;
+	
 	height: 300px;
 	display: flex;
 	flex-direction: column;
@@ -205,23 +184,11 @@ footer {
 	align-items: center;
 	justify-content: center;
 }
+
 .join h1 {
 	text-align: center;
 }
-.join > div  button {
-	background: transparent;
-	width: 200px;
-	height: 50px;
-	border: 1px solid #fff;
-	color: var(--join-font-color);
-	cursor: pointer;
-	font-size: 24px;
-}
 
-.join > div  button:hover {
-	border: 1px solid #000;
-	color: var(--base-font-color);
-}
 /* ================================ Together ==================== */
 
 .together {
