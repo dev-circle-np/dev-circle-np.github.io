@@ -6,60 +6,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/yeti/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 <body>
 	<!-- ====================== Header ====================== -->
-	<header>
-		<!-- Navigation -->
-		<nav>
-			<div class="brand">
-				<div class="title">
-					<div class="logo"></div>
-					<a href="/">Developers Circle Nepal</a>
-				</div>
-				<div class="menu-bar-icon">
-					<i class="fa fa-bars" aria-hidden="true"></i>
-				</div>
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<img src="../assets/img/logo.jpg" class="logo-dcn" >
+				<a class="navbar-brand" href="/">Developers Circle Nepal</a>
+					
 			</div>
-			<ul class="nav-menus">
-				<li>
-					<a href="/"><i class="fa fa-home"></i> Home</a>
-				<li>
-					<a href="/#join"><i class="fa fa-user-plus"></i> Join</a>
-				</li>
-				<li>
-					<a href="/members"><i class="fa fa-users"></i> Members</a>
-				</li>
-				<li>
-					<a href="/showcase"><i class="fa fa-th-large"></i> Showcase</a>
-				</li>
-				<li>
-					<a href="/#about"><i class="fa fa-info-circle"></i> About</a>
-				</li>
+
+			<ul class="nav navbar-nav">
+				<li><a href="/"><i class="fa fa-home">&nbsp;</i>Home</a></li>
+				<li><a href="/#join"><i class="fa fa-user-plus">&nbsp;</i>Join</a></li>
+				<li><a href="/members"><i class="fa fa-users"></i>&nbsp;Members</a></li>
+				<li><a href="https://github.com/dev-circle-np"><i class="fa fa-th-large"></i>&nbsp;Showcase</a></li>
+				<li><a href="/#about"><i class="fa fa-info-circle"></i>&nbsp;About</a></li>
 			</ul>
 		</nav>
-	</header>
-	<main>
+
+	
 		<!-- ============== Message =========== -->
-		<section class="member-message">
-			<!-- <div>Developers Circle Nepal</div> -->
-			<div>MEMBERS</div>
-			<a href="https://github.com/dev-circle-np/dev-circle-np.github.io#add-yourself-as-a-member" title="Add me">
-				<i class="fa fa-plus-circle fa-3x"></i>
-			</a>
-		</section>
-		<!-- =================== Members ============== -->
-		<section class="members">
-			members ..................
-		</section>
+		<div class="container">
+			<div class="text-center">
+				<h3>MEMBERS</h3>
+				<a href="https://github.com/dev-circle-np/dev-circle-np.github.io#add-yourself-as-a-member" title="Add me">
+				<i class="fa fa-plus-circle fa-3x"></i></a>
+			</div>
+			<!-- =================== Members ============== -->
+				<section class="members">
+				members ..................
+			</section>
+		</div>
 
 
 		<!-- ============== Footer ============= -->
 		<footer>
 			<div class="copyright">Developers Circle Nepal &copy; <span class="date"></span></div>
 		</footer>
-	</main>
+	</div>
 	<script src="./members.js"></script>
 	<script src="../assets/js/index.js"></script>
 </body>

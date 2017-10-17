@@ -53,88 +53,6 @@ h1, p, ul {
 
 
 
-
-
-/* Navigation */
-/* Use of CSS3 flexbox,
- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes */
-
-/* ===================== Header ================================ */
-header {
-	height: var(--navbar-height);
-	width: 100%;
-	background: #263238;
-	color: var(--base-font-color);
-	position: fixed;
-	top: 0;
-	left: 0;
-}
-
-nav {
-	max-width: var(--base-width);
-	margin: 0 auto;
-	display: flex;
-	height: inherit;
-}
-
-/* Brand */
-nav .brand {
-	flex: 2;
-	display: flex;
-}
-
-.brand > div {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.brand .logo {
-	background-image: url(../assets/img/logo.jpg);
-	background-size: cover;
-	background-color: white;
-	border-radius: 50%;
-	margin-right: 15px;
-	width: 40px;
-	height: 40px;
-}
-
-.brand .title {
-	cursor: pointer;
-}
-
-.brand .title a {
-	text-decoration: none;
-	color: var(--base-font-color);
-}
-
-
-.brand .menu-bar-icon {
-	display: none;
-}
-
-
-/* Navigation Menus */
-
-
-/* =========================== Main ================= */
-
-main {
-	margin-top: var(--navbar-height);  /*Subracts the navbar height*/
-}
-
-/* ======================== Footer ================ */
-
-footer {
-	height: 50px;
-	background: var(--base-pm-color);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: var(--base-font-color);
-}
-
 .copyright {
 	font-size: 1rem;
 }
@@ -280,20 +198,20 @@ footer {
 }
 
 /* ------------------- CSS stylesheets for members page --------------- */
+
 .member-message {
-	height: calc(100vh - 60vh);
+	height: 100px;
 	background: #37474F;
 	color: var(--base-font-color);
+	width: 250px;
 	display: flex;
+	margin-top: 50px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+
 }
 
-.member-message div {
-	font-size: 2rem;
-	margin: 10px 0;
-}
 
 .member-message a {
 	color: var(--base-font-color);
@@ -307,6 +225,7 @@ footer {
 	background: #EEE;
 	height: auto;
 	display: flex;
+	width: 1200px;
 	flex-wrap: wrap;
 	justify-content: center;
 	color: var(--base-font-color);
