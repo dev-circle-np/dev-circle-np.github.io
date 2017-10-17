@@ -160,6 +160,14 @@ const members = [
             facebook: 'pe.messh',
             instagram: 'pe.messh'
         }
+    },
+    {
+        fullName: 'Jenish Shrestha',
+        discordUsername:'jenish1231#4002',
+        about:'Student',
+        links: {
+            github:'jenish1231'
+        }
     }
     // add here
 ]
