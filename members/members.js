@@ -168,6 +168,16 @@ const members = [
         links: {
             github:'jenish1231'
         }
+    },
+    //Ankit Chhetri 
+    {
+        fullName: 'Ankit Chhetri',
+        discordUsername:'bhukampa#2489',
+        about:'Developer | Student | Snake Charmer',
+        links: {
+            github:'ankitch',
+            twitter:'ankit_cheetri'
+        }
     }
     // add here
 ]
