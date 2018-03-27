@@ -23,6 +23,17 @@ const members = [
       facebook: 'anarchyrucks'
     }
   },
+   // sandeep pokhrel
+  {
+    fullName: 'sandeep pokhrel',
+    discordUsername: 'sandeep pokhrel',
+    about: 'I am a front-end developer',
+    links: {
+      github: 'sananddev',
+      twitter: 'Sandeep60837075',
+      facebook: 'sandeep.pokhrel.7'
+    }
+  },
   // bibek
   {
     fullName: 'Bibek Lamsal',
