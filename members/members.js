@@ -189,7 +189,18 @@ const members = [
       github: 'ankitch',
       twitter: 'ankit_cheetri'
     }
-  }
+  },
+  // Nischal Lal Shrestha
+  {
+    fullName: 'Nischal Lal Shrestha',
+    discordUsername: 'Nischal#8165',
+    about: 'Programmer|Inventor|Django|Python|Learner',
+    links: {
+      github: 'theonlyNischal',
+      twitter: 'theonlyNischal',
+      facebook: 'theonlyNischal',
+    }
+  },
   // add here
 ]
 /* ====================================================================== */
