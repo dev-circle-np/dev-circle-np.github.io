@@ -201,6 +201,16 @@ const members = [
       facebook: 'theonlyNischal',
     }
   },
+ {
+    fullName: 'Bishal Thapa',
+    discordUsername: 'thebsaal#0147',
+    about: 'Developer|Designer|Mentor|Learner',
+    links: {
+      github: 'thebsaal',
+      twitter: 'thebsaal',
+      facebook: 'thebsaal',
+    }
+ }
   // add here
 ]
 /* ====================================================================== */
