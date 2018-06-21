@@ -221,7 +221,17 @@ const members = [
       twitter: 'megamindAT',
       facebook: 'megamindAT',
     }
-  }  
+  },
+  // Subesh Bhandari
+  {
+    fullName: 'Subesh Bhandari',
+    discordUsername: 'Subeshb1#3437',
+    about: 'Programmer/Student',
+    links: {
+      github: 'subeshb1',
+      twitter: 'subeshb1'
+    }
+  }
   // add here
 ]
 /* ====================================================================== */
