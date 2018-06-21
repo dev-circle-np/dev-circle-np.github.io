@@ -210,7 +210,18 @@ const members = [
       twitter: 'thebsaal',
       facebook: 'thebsaal',
     }
- }
+ },
+ // Ashish Tiwari
+ {
+    fullName: 'Ashish Tiwari',
+    discordUsername: 'megamindAT',
+    about: 'Antarctica is melting!',
+    links: {
+      github: 'megamind98',
+      twitter: 'megamindAT',
+      facebook: 'megamindAT',
+    }
+  }  
   // add here
 ]
 /* ====================================================================== */
