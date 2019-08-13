@@ -38,10 +38,10 @@ const members = [
   {
     fullName: 'Bibek Lamsal',
     discordUsername: 'bibek',
-    about: 'I am a budding Software Engineer and a Mathematics enthusiast.',
+    about: 'I am a Data Analyst and a budding Software Engineer.',
     links: {
       github: 'bibek94',
-      twitter: 'bibek107',
+      twitter: 'Bibek21516111',
       facebook: 'bibek.lamsal.94'
     }
   },
