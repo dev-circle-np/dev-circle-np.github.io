@@ -1,6 +1,17 @@
 /* Member information */
 
 const members = [
+  // puncoz
+  {
+    fullName: 'Puncoz Nepal',
+    discordUsername: 'puncoz#7209',
+    about: 'Full Stack Software Engineer | NodeJS | PHP | AI | ML',
+    links: {
+      github: 'puncoz',
+      twitter: 'PuncozNepal',
+      facebook: 'puncoz'
+    }
+  },
   // rameshsyn
   {
     fullName: 'Ramesh Syangtan',
