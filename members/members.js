@@ -231,6 +231,17 @@ const members = [
       github: 'subeshb1',
       twitter: 'subeshb1'
     }
+  },
+  // Prabin Parajuli
+  {
+    fullName: 'Prabin Parajuli',
+    discordUsername: 'prabin-parajuli#8986',
+    about: '**Loves** Binary world.',
+    links: {
+      github: 'prabinzz',
+      twitter: 'prabinparajuli',
+      facebook: 'pra.bin.35'
+    }
   }
   // add here
 ]
