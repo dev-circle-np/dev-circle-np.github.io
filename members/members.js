@@ -9,7 +9,18 @@ const members = [
     links: {
       github: 'prashant-shahi',
       twitter: 'coolboi567',
-      facebook: 'coolboi567'
+      facebook: 'coolboi567',
+    }
+  },
+  // puncoz
+  {
+    fullName: 'Puncoz Nepal',
+    discordUsername: 'puncoz#7209',
+    about: 'Full Stack Software Engineer | NodeJS | PHP | AI | ML',
+    links: {
+      github: 'puncoz',
+      twitter: 'PuncozNepal',
+      facebook: 'puncoz'
     }
   },
   // rameshsyn
@@ -49,10 +60,10 @@ const members = [
   {
     fullName: 'Bibek Lamsal',
     discordUsername: 'bibek',
-    about: 'I am a budding Software Engineer and a Mathematics enthusiast.',
+    about: 'I am a Data Analyst and a budding Software Engineer.',
     links: {
       github: 'bibek94',
-      twitter: 'bibek107',
+      twitter: 'Bibek21516111',
       facebook: 'bibek.lamsal.94'
     }
   },
@@ -241,6 +252,17 @@ const members = [
     links: {
       github: 'subeshb1',
       twitter: 'subeshb1'
+    }
+  },
+  // Prabin Parajuli
+  {
+    fullName: 'Prabin Parajuli',
+    discordUsername: 'prabin-parajuli#8986',
+    about: '**Loves** Binary world.',
+    links: {
+      github: 'prabinzz',
+      twitter: 'prabinparajuli',
+      facebook: 'pra.bin.35'
     }
   }
   // add here
