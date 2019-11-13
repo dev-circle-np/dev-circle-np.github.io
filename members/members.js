@@ -1,6 +1,17 @@
 /* Member information */
 
 const members = [
+  // CodeGeass
+  {
+    fullName: 'Prashant Shahi',
+    discordUsername: 'CodeGeass#2925',
+    about: 'DevRel | Full Stack DevOps Engineer | Hails from Jumla, Nepal',
+    links: {
+      github: 'prashant-shahi',
+      twitter: 'coolboi567',
+      facebook: 'coolboi567',
+    }
+  },
   // puncoz
   {
     fullName: 'Puncoz Nepal',
