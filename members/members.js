@@ -81,12 +81,12 @@ const members = [
   // nabinsademba
   {
     fullName: 'Nabin Sademba',
-    discordUsername: 'Monk34#5561',
-    about: 'nerd,geek :P',
+    discordUsername: '0x6675636b20796f75',
+    about: 'Enthusiast',
     links: {
-      github: 'nabins13',
-      twitter: 'nabin sademba',
-      facebook: 'नविन सादेम्बा लिम्बु'
+      github: 'sademban',
+      twitter: 'madbios9',
+      facebook: 'Theodore Twombly'
     }
   },
   // amitchaudhary
