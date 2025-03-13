@@ -1,6 +1,7 @@
-# Developers Circle Nepal (DCN) - The official page.
+# Developers Circle Nepal (DCN) - The official page
 
-### Add yourself as a member
+## Add yourself as a member
+
  In order to add yourself as a member, you must join our DCN discord server [here](https://discord.gg/acVJSXP).
 
  Next, follow the given steps:
@@ -20,10 +21,13 @@
         }
     },
     ```
-3. Send us a PR. That's all.
 
-#### Would you like to contribute to this repo ?
+2. Send us a PR. That's all.
+
+## Would you like to contribute to this repo ?
+
 Checkout our [contribution guide](https://github.com/dev-circle-np/dev-circle-np.github.io/blob/master/CONTRIBUTION.md)
 
 ## Contributors
+
 We ❤️ our [Contributors](https://github.com/dev-circle-np/dev-circle-np.github.io/graphs/contributors)
