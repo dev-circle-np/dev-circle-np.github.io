@@ -275,7 +275,7 @@ const members = [
         twitter: 'bibekdhkl',
         facebook: 'bibekdhkl'
     }
-},
+}
   // add here  
 ]
 /* ====================================================================== */
