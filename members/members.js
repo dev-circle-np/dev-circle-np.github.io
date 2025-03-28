@@ -264,8 +264,19 @@ const members = [
       twitter: 'prabinparajuli',
       facebook: 'pra.bin.35'
     }
-  }
-  // add here
+  },
+  // Bibek Dhakal
+  {
+    fullName: 'Bibek Dhakal',
+    discordUsername: 'bibekdhakal',
+    about: 'Organizer at GDG Kathmandu, Building & Scaling Tech Products, Loves UI/UX',
+    links: {
+        github: 'bibekdhkl', 
+        twitter: 'bibekdhkl',
+        facebook: 'bibekdhkl'
+    }
+}
+  // add here  
 ]
 /* ====================================================================== */
 const membersContainer = document.querySelector('.members')
