@@ -1,58 +1,112 @@
-# DCN Contribution guide
+# DCN Contribution Guide
 
-Whether you're new to GitHub and looking for experience or just want to help out, we welcome your contribution. This project is meant to give contributors an introduction into the world of code collaboration as well as basic web development.
+Whether you're new to GitHub or an experienced developer, we welcome your contribution. This project gives contributors hands-on experience with open source collaboration and basic web development.
 
-If you haven't already, join the conversation in  [our Discord server](https://discord.gg/acVJSXP). Let us know what you want to add to this project. If you need help with making a contribution, feel free to ask.
+Join the conversation in [our Discord server](https://discord.gg/WZubTZsxKG) before contributing. Let us know what you want to add or fix.
 
-Thanks for showing interest to help grow Developers Circle Nepal.
+---
+
+## Adding yourself as a member
+
+The only file you need to edit is **`members/members.js`**.
+
+Find the `// add here` comment near the bottom of the `members` array and add your entry **above** it:
+
+```js
+// your-github-username
+{
+  fullName: 'Your Full Name',
+  discordUsername: 'yourdiscord#1234',
+  about: 'One line about yourself',
+  links: {
+    github: 'your-github-username',
+    twitter: 'your-twitter-handle',   // optional
+    facebook: 'your-facebook-handle', // optional
+  }
+},
+// add here
+```
+
+**Notes:**
+- `fullName` — your real name or preferred display name
+- `discordUsername` — your Discord handle
+- `about` — keep it short, one sentence
+- `links.github` — required (used for your profile avatar)
+- `links.twitter` and `links.facebook` — optional, omit if not applicable
+- If your GitHub avatar is missing, the site auto-generates an initials avatar
+
+Your card will automatically appear on both the **Members** page and the **homepage** preview once merged.
+
+---
 
 ## Forking and cloning
 
-In order to submit changes to the DCN repository, you'll need to fork the repository and maintain a local copy of it. Check out [GitHub's guide to forking](https://help.github.com/articles/fork-a-repo/) for info on how to do that.
+You'll need a fork of the repository to submit changes.
 
-If you followed the guide (replacing the example repo with DCN repo), you should have two copies of the DCN repository:
+1. [Fork the repo](https://help.github.com/articles/fork-a-repo/) on GitHub
+2. Clone your fork locally:
+   ```bash
+   git clone git@github.com:YOUR-USERNAME/dev-circle-np.github.io.git
+   cd dev-circle-np.github.io
+   ```
+3. Add the upstream remote:
+   ```bash
+   git remote add upstream https://github.com/dev-circle-np/dev-circle-np.github.io.git
+   ```
 
-- one in your GitHub account (`github.com/YOUR-USERNAME/dev.circle.github.io`)
-- one local copy within a folder called `dev-circle-np.github.io`.
+You should now have:
+- `origin` → your fork (`github.com/YOUR-USERNAME/dev-circle-np.github.io`)
+- `upstream` → the original DCN repo
 
-Your local repo's `upstream` should be set to `https://github.com/dev-circle-np/dev-circle-np.github.io.git`, like the example in [this section](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) of the guide.
+---
 
 ## Working with a local copy
 
-**Note:** Make sure your master branch is synced to the original DCN repository and that you are working on a separate branch before you start making changes to your local repository. Here are the steps to follow:
+Before making changes, sync your fork with upstream:
 
-1. Open Git Shell and navigate to the repository
-2. Make sure you are on the master branch, using `git status`:
-
-   ```python
-   On branch master
-   Your branch is up to date 'origin/master'
+1. Make sure you're on master:
+   ```bash
+   git checkout master
+   git status
    ```
+2. Sync with upstream:
+   ```bash
+   git pull --rebase upstream master
+   ```
+3. Create a new branch:
+   ```bash
+   git checkout -B your-branch-name
+   ```
+   Use a descriptive name e.g. `add-nabin-as-member` or `fix-navbar-mobile`.
 
-3. If you are not on master, use `git checkout master`
+4. Make your changes, then test locally by opening `index.html` in a browser or running:
+   ```bash
+   python -m http.server 8080
+   ```
+   Visit `http://localhost:8080` to preview.
 
-4. Do a `pull` with rebase against `upstream`:
-   `git pull --rebase upstream master`
-   This will sync your local repo with the original master without making an additional commit locally.
-5. Create a branch off of master with: `git checkout -B branchname` replacing `branchname` with the name of your new branch. Use a name that gives an idea of what feature or fix you are going to implement such as `navbar-styling`.
-6. Now you're ready to make some changes to your local files!
+---
 
-## Pushing changes to your GitHub fork
+## Pushing changes to your fork
 
-Alright, so you've made some changes in your local copy of the DCN repo, tested your changes on your browser and you're ready to submit those changes for all to see. Now what?
+```bash
+git status                          # review changed files
+git add members/members.js          # stage only what you changed
+git commit -m "add your-name as member"
+git push -u origin your-branch-name
+```
 
-1. Run `git status` and you'll see all the files you've changed and haven't staged yet.
-2. Add your changed files to be staged with: `git add path/to/filename.ext` You can also do: `git add .` to add all unstaged files. Check `git status` before doing adding all unstaged files, as you may end up staging some unwanted files.
-3. Commit your edits: `git commit -m "commit description"`
-4. [Squash your commits](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html), if there are more than one.
-5. Push your commit to your fork on GitHub: `git push -u origin master`. The branch name should be the same as the branch you were working with.
+---
 
 ## Submitting a pull request
 
-Once you've got your changes pushed to your fork of the DCN repo on GitHub, it's time to [submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
+1. Go to the [DCN repository on GitHub](https://github.com/dev-circle-np/dev-circle-np.github.io)
+2. Click **"New pull request"** → **"compare across forks"**
+3. Set:
+   - **base:** `dev-circle-np/dev-circle-np.github.io` → `master`
+   - **compare:** `YOUR-USERNAME/dev-circle-np.github.io` → `your-branch-name`
+4. Title your PR clearly e.g. `add Nabin Sademba as member`
+5. If fixing an issue add `closes #123` in the description
+6. Submit — maintainers will review and merge
 
-The name of your pull request (PR) should give us an idea of the changes you've made, such as `add styling to navbar`.
-
-If your PR is meant fix a specific issue, add `closes #123` in the description of your PR where `#123` is the issue number. This will allow GitHub to automatically close the issue once your PR is merged
-
-If your PR is not accepted, we'll let you know what changes need to be made.
+If changes are requested, push additional commits to the same branch and the PR updates automatically.
