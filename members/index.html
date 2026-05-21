@@ -1,66 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Developers Circle Nepal | Learn, Code, Build, Share and Help !</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="../assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Members | Developers Circle Nepal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<!-- ====================== Header ====================== -->
-	<header>
-		<!-- Navigation -->
-		<nav>
-			<div class="brand">
-				<div class="title">
-					<div class="logo"></div>
-					<a href="/">Developers Circle Nepal</a>
-				</div>
-				<div class="menu-bar-icon">
-					<i class="fa fa-bars" aria-hidden="true"></i>
-				</div>
-			</div>
-			<ul class="nav-menus">
-				<li>
-					<a href="/"><i class="fa fa-home"></i> Home</a>
-				<li>
-					<a href="/#join"><i class="fa fa-user-plus"></i> Join</a>
-				</li>
-				<li>
-					<a href="/members"><i class="fa fa-users"></i> Members</a>
-				</li>
-				<li>
-					<a href="/showcase"><i class="fa fa-th-large"></i> Showcase</a>
-				</li>
-				<li>
-					<a href="/#about"><i class="fa fa-info-circle"></i> About</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<!-- ============== Message =========== -->
-		<section class="member-message">
-			<!-- <div>Developers Circle Nepal</div> -->
-			<div>MEMBERS</div>
-			<a href="https://github.com/dev-circle-np/dev-circle-np.github.io#add-yourself-as-a-member" title="Add me">
-				<i class="fa fa-plus-circle fa-3x"></i>
-			</a>
-		</section>
-		<!-- =================== Members ============== -->
-		<section class="members">
-			members ..................
-		</section>
 
+  <!-- =================== Nav =================== -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <div class="logo"></div>
+        <a href="/">Developers Circle Nepal</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#join">Join</a></li>
+        <li><a href="/members">Members</a></li>
+        <li><a href="https://github.com/dev-circle-np" target="_blank">GitHub</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="https://discord.gg/WZubTZsxKG" class="btn-nav" target="_blank">Join Discord</a></li>
+      </ul>
+    </nav>
+  </header>
 
-		<!-- ============== Footer ============= -->
-		<footer>
-			<div class="copyright">Developers Circle Nepal &copy; <span class="date"></span></div>
-		</footer>
-	</main>
-	<script src="./members.js"></script>
-	<script src="../assets/js/index.js"></script>
+  <main>
+
+    <!-- =================== Members Hero =================== -->
+    <section class="members-hero">
+      <h1>Our Members</h1>
+      <p>Developers and designers growing together from around the world</p>
+      <a href="https://github.com/dev-circle-np/dev-circle-np.github.io#add-yourself-as-a-member"
+         class="btn btn-primary" target="_blank">
+        <i class="fa fa-plus"></i> Add yourself
+      </a>
+    </section>
+
+    <!-- =================== Members Grid =================== -->
+    <section class="members-page-section">
+      <div class="members-grid members">
+        <!-- populated by members.js -->
+      </div>
+    </section>
+
+    <!-- =================== Footer =================== -->
+    <footer>
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="logo"></div>
+          <span>Developers Circle Nepal</span>
+        </div>
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/members">Members</a>
+          <a href="https://github.com/dev-circle-np" target="_blank">GitHub</a>
+          <a href="https://discord.gg/WZubTZsxKG" target="_blank">Discord</a>
+        </div>
+        <div class="footer-copy">
+          &copy; <span class="date"></span> Developers Circle Nepal. Made with ❤️ in Nepal.
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="./members.js"></script>
+  <script src="../assets/js/index.js"></script>
 </body>
 </html>
