@@ -1,15 +1,19 @@
 (function () {
-  const menuBar = document.querySelector('.menu-bar-icon')
-  const menus = document.querySelector('.nav-menus')
-  const rootElement = document.documentElement // root Element
+  const menuBar = document.querySelector('.nav-toggle')
+  const menus = document.querySelector('.nav-links')
+  const header = document.getElementById('header')
 
-  // shows current date next copyright
-  document.querySelector('.date').textContent = new Date().getFullYear()
-  
-  function navHide () {
-    menus.classList.toggle('nav-hide')
+  document.querySelectorAll('.date').forEach(el => {
+    el.textContent = new Date().getFullYear()
+  })
+
+  if (menuBar && menus) {
+    menuBar.addEventListener('click', () => menus.classList.toggle('open'))
   }
-  
-  // Event Listeners
-  menuBar.addEventListener('click', navHide)
+
+  if (header) {
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20)
+    })
+  }
 })()

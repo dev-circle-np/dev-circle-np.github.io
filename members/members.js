@@ -280,37 +280,31 @@ const members = [
 ]
 /* ====================================================================== */
 const membersContainer = document.querySelector('.members')
-let membersElms = '' // members elements
+if (membersContainer) {
+  let html = ''
 
-// Generate html of members data
+  members.forEach(member => {
+    const initials = member.fullName.split(' ').map(w => w[0]).join('').toUpperCase().slice(0,2)
+    const fallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(member.fullName)}&size=100&background=6366f1&color=fff&bold=true&length=2`
+    const src = member.links.github
+      ? `https://avatars.githubusercontent.com/${member.links.github}?size=100`
+      : fallback
+    const avatar = `<img class='member-image' src='${src}' alt='${initials}' loading='lazy' onerror="this.onerror=null;this.src='${fallback}'" title='${member.fullName}'>`
 
-members.forEach(member => {
-  let memElm =
-    `<div class='member'>
-      <img class='member-image'
-        src='https://github.com/${member.links.github}.png?size=100',
-        alt='${member.fullName}'
-        title='${member.fullName}'>
-      <h2 class='member-username'>${member.fullName}</h2> <p title='Discord username' class='member-discord-user'>@${member.discordUsername} </p><hr>
-      <p>${member.about}</p><hr>
-      <div class='member-links'>
-    `
+    let links = ''
+    if (member.links.github)   links += `<a href='https://github.com/${member.links.github}' target='_blank'><i class='fa-brands fa-github'></i></a>`
+    if (member.links.twitter)  links += `<a href='https://twitter.com/${member.links.twitter}' target='_blank'><i class='fa-brands fa-x-twitter'></i></a>`
+    if (member.links.facebook) links += `<a href='https://facebook.com/${member.links.facebook}' target='_blank'><i class='fa-brands fa-facebook'></i></a>`
 
-  if (member.links.github) {
-    memElm += `<a href='https://github.com/${member.links.github}'><i class='fa fa-github'></i></a>`
-  }
+    html += `
+      <div class='member-card'>
+        ${avatar}
+        <h2 class='member-username'>${member.fullName}</h2>
+        <p class='member-discord-user'><i class='fa-brands fa-discord'></i> ${member.discordUsername}</p>
+        <p class='member-about'>${member.about}</p>
+        <div class='member-links'>${links}</div>
+      </div>`
+  })
 
-  if (member.links.twitter) {
-    memElm += `<a href='https://twitter.com/${member.links.twitter}'><i class='fa fa-twitter'></i></a>`
-  }
-
-  if (member.links.facebook) {
-    memElm += `<a href='https://facebook.com/${member.links.facebook}'><i class='fa fa-facebook'></i></a>`
-  }
-
-  memElm += `</div></div>`
-
-  membersElms += memElm
-})
-
-membersContainer.innerHTML = membersElms
+  membersContainer.innerHTML = html
+}
