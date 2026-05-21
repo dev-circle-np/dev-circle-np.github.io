@@ -89,9 +89,9 @@ const members = [
       facebook: 'mmarahatta'
     }
   },
-  // nabinsademba
+  // sademban
   {
-    fullName: 'Nabin Sademba',
+    fullName: 'sademban',
     discordUsername: '0x6675636b20796f75',
     about: 'Enthusiast',
     links: {
