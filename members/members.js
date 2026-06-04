@@ -1,7 +1,7 @@
 /* Member information */
 
 const members = [
-  // CodeGeass
+  // CB567
   {
     fullName: 'Prashant Shahi',
     discordUsername: 'CB567#2925',
