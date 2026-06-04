@@ -36,13 +36,12 @@ const members = [
   },
   // ashish
   {
-    fullName: 'Ashish Acharya',
+    fullName: 'Ashish A',
     discordUsername: 'ashish#2010',
-    about: 'Developer | Designer | Student | Nepal',
+    about: 'Product • AI • Infrastructure',
     links: {
-      github: 'anarchyrucks',
-      twitter: 'anarchyrucks',
-      facebook: 'anarchyrucks'
+      github: 'axispx',
+      twitter: 'axispx',
     }
   },
    // sandeep pokhrel
