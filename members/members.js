@@ -1,15 +1,14 @@
 /* Member information */
 
 const members = [
-  // CodeGeass
+  // CB567
   {
     fullName: 'Prashant Shahi',
-    discordUsername: 'CodeGeass#2925',
-    about: 'DevRel | Full Stack DevOps Engineer | Hails from Jumla, Nepal',
+    discordUsername: 'CB567#2925',
+    about: 'Platform/SRE · Infrastructure · Observability · Distributed Systems',
     links: {
       github: 'prashant-shahi',
-      twitter: 'coolboi567',
-      facebook: 'coolboi567',
+      twitter: 'c0degeas',
     }
   },
   // puncoz
